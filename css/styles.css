@@ -521,9 +521,10 @@ img {
 
 .subscribe-btn {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 
-  width: 165px;
+  min-width: 165px;
   height: 40px;
 
   padding: 8px 24px;
