@@ -513,7 +513,7 @@
           </p>
         </div>
 
-        <div class="footer__content">
+       
           <div class="footer-socials">
             <p class="text footer__title">Social media</p>
             <ul class="list footer-socials__list">
@@ -576,15 +576,17 @@
           <div class="footer__subscribe">
             <p class="text footer__title">Subscribe</p>
             <form class="subscribe__form">
-              <label class="visually-hidden" for="user_subscribe"></label>
-              <input
-                class="subscribe__input"
-                type="email"
-                name="user_subscribe"
-                id="user_subscribe"
-                placeholder="E-mail"
-                required
-              />
+              <label class="subscribe__label" for="user_subscribe">
+                <input
+                  class="subscribe__input"
+                  type="email"
+                  name="user_subscribe"
+                  id="user_subscribe"
+                  placeholder="E-mail"
+                  required
+                />
+              </label>
+            
               <button class="primary-btn subscribe-btn" type="submit">
                 Subscribe
                 <svg class="subscribe-btn__icon" width="24" height="24">
@@ -594,6 +596,7 @@
             </form>
           </div>
         </div>
+        
       </div>
     </footer>
 
