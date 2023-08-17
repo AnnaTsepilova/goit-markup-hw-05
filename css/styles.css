@@ -587,7 +587,7 @@ img {
 
   min-width: 408px;
   min-height: 584px;
-  padding: 72px 24px 24px 24px;
+  /* padding: 72px 24px 24px 24px; */
 
   background-color: rgba(252, 252, 252, 1);
 
@@ -632,8 +632,8 @@ img {
 }
 
 .modal__form {
-  margin: 0 auto;
-  /* padding: 74px 0 24px 0; */
+  /* margin: 0 auto; */
+  padding: 72px 24px 24px 24px;
   max-width: 360px;
 }
 
