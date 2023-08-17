@@ -587,7 +587,7 @@ img {
 
   min-width: 408px;
   min-height: 584px;
-  padding: 74px 24px 24px 24px;
+  padding: 72px 24px 24px 24px;
 
   background-color: rgba(252, 252, 252, 1);
 
@@ -641,6 +641,7 @@ img {
   margin-bottom: 16px;
   font-weight: 500;
   text-align: center;
+  color: var(--dark-color);
 }
 
 .modal__input-label {
@@ -654,6 +655,10 @@ img {
 
 .modal__input-row {
   margin-bottom: 8px;
+}
+
+.modal__input-textarea {
+  margin-bottom: 16px;
 }
 
 .modal__input-field {
