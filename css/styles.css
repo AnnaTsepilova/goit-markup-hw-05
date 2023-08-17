@@ -498,7 +498,7 @@ img {
   border: 1px solid var(--primary-white-color);
 
   background-color: transparent;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
   font-size: 12px;
   line-height: 1.5;
@@ -632,8 +632,6 @@ img {
 }
 
 .modal__form {
-  /* margin: 0 auto; */
-  /* padding: 72px 24px 24px 24px; */
   max-width: 360px;
 }
 
@@ -767,13 +765,12 @@ img {
 
 .modal__policy-checkbox:checked + .modal__policy-label .modal__policy-icon {
   fill: var(--light-cloud-color);
-  /* border: 1px solid var(--primary-brand-color); */
   border: none;
-  background-color: var(--primary-brand-color);
+  background-color: var(--hover-state-color);
 }
 
 .modal__policy-checkbox:focus + .modal__policy-label .modal__policy-icon {
-  border: 1px solid var(--primary-brand-color);
+  border: 1px solid var(--hover-state-color);
 }
 
 .modal__policy-text {
