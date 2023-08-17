@@ -764,14 +764,14 @@ img {
 }
 
 .modal__policy-checkbox:checked + .modal__policy-label .modal__policy-icon {
-  fill: var(--light-cloud-color);
-  border: none;
   background-color: var(--hover-state-color);
+  border: none;
+  fill: var(--light-cloud-color);
 }
 
-.modal__policy-checkbox:focus + .modal__policy-label .modal__policy-icon {
+/* .modal__policy-checkbox:focus + .modal__policy-label .modal__policy-icon {
   border: 1px solid var(--hover-state-color);
-}
+} */
 
 .modal__policy-text {
   vertical-align: middle;
