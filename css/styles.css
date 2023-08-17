@@ -587,7 +587,7 @@ img {
 
   min-width: 408px;
   min-height: 584px;
-  /* padding: 72px 24px 24px 24px; */
+  padding: 72px 24px 24px 24px;
 
   background-color: rgba(252, 252, 252, 1);
 
@@ -633,7 +633,7 @@ img {
 
 .modal__form {
   /* margin: 0 auto; */
-  padding: 72px 24px 24px 24px;
+  /* padding: 72px 24px 24px 24px; */
   max-width: 360px;
 }
 
@@ -761,18 +761,19 @@ img {
 
   cursor: pointer;
 
-  transition: fill 250ms var(--cubic), border-color 250ms var(--cubic),
-    background-color 250ms var(--cubic);
+  transition: background-color 250ms var(--cubic), border 250ms var(--cubic),
+    fill 250ms var(--cubic);
 }
 
-.modal__policy-checkbox:checked + .modal__policy-icon {
+.modal__policy-checkbox:checked + .modal__policy-label .modal__policy-icon {
   fill: var(--light-cloud-color);
-  border-color: var(--primary-brand-color);
+  /* border: 1px solid var(--primary-brand-color); */
+  border: none;
   background-color: var(--primary-brand-color);
 }
 
-.modal__policy-checkbox:focus + .modal__policy-icon {
-  border-color: var(--primary-brand-color);
+.modal__policy-checkbox:focus + .modal__policy-label .modal__policy-icon {
+  border: 1px solid var(--primary-brand-color);
 }
 
 .modal__policy-text {
@@ -784,7 +785,7 @@ img {
 }
 
 .modal__policy-link {
-  vertical-align: middle;
+  /* vertical-align: middle; */
   color: var(--primary-brand-color);
 }
 
